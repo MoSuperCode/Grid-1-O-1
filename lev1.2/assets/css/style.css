@@ -1,3 +1,16 @@
+header {
+    display:grid ;
+    grid-template: 1fr 1fr 1fr /1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "red red blue blue"
+    "green purple purple purple"
+    "yellow yellow yellow yellow"
+    ;
+    gap: 10px;
+    height: 30vh;
+    margin: 25% auto;
+}
+
 main {
     display: grid;
     grid-template-areas:
@@ -30,4 +43,8 @@ div {
 .purple2 {
     background-color: purple;
     grid-area: purple2;
+}
+.yellow {
+    background-color: yellow;
+    grid-area: yellow;
 }
