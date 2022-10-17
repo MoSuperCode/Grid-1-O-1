@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-areas:
+    "red red red red"
+    "blue blue green green"
+    "blue blue purple purple2"
+    ;
+    gap:10px;
+    height:60vh
+}
+div {
+    border-radius: 15px;
+}
+.red {
+    background-color: red;
+    grid-area: red;
+}
+.blue {
+    background-color: blue;
+    grid-area: blue;
+}
+.green {
+    background-color: green;
+    grid-area: green;
+}
+.purple {
+    background-color: purple;
+    grid-area: purple;
+}
+.purple2 {
+    background-color: purple;
+    grid-area: purple2;
+}
